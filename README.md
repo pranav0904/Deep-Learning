@@ -22,15 +22,23 @@ Dependencies:
 - keras==2.2.5
 
 
-
 ## Conclusion:
 After performing analysis on the CNN model, it is observed that,
 ```
-- For the baseline model, Loss is Higher and Accuracy on validation data is 63%.
-- The cost function logcosh is appropriate for this model than hinge.
-- Higher the number of epochs, better the model is.
-- Change in Optimizer can increase the accuracy and it helps to reduce the loss. Adagrad is better suit for this type of model than RMSprop
-- Network architecture is as important as hyperparameters. By adding more layers and with proper use of hyperparamters, we can achieve higher accuracy.
-- After changing the kernel initialization, accuracy on validation set got increase.
-- For Multivariate Tabular data, Convolution Neural Network can produce good results but handling of data For the CNN model is difficult.
+1. For the baseline model, Loss is Higher and Accuracy on validation data is 63%.
+2. The cost function logcosh is appropriate for this model than hinge.
+3. Higher the number of epochs, better the model is.
+4. Change in Optimizer can increase the accuracy and it helps to reduce the loss. Adagrad is better suit for this type of model than RMSprop.
+5. Network architecture is as important as hyperparameters. By adding more layers and with proper use of hyperparamters, we can achieve higher accuracy.
+6. After changing the kernel initialization, accuracy on validation set got increase.
+7. For Multivariate Tabular data, Convolution Neural Network can produce good results but handling of data For the CNN model is difficult.
+
 ```
+
+
+## Citation:
+References:
+- https://keras.io/models
+- https://machinelearningmastery.com/
+- https://karpathy.github.io/2019/04/25/recipe
+
