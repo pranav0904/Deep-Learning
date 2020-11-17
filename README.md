@@ -1,6 +1,6 @@
 # Deep Learning Model
 
-Objective of this Repository is to check whether the CNN model can be applied on multivariate tabular dataset or not. If yes then improve the performance of the model by setting proper values for hyperparameters and network architecture. For this purpose, I have taken s&p500 data to predict whether Consumer Price Index will increase or decrease based on the other economic indicators such as SP500, Dividend, Earnings, Long Interest Rate, Real Price, Real Dividend, Real Earnings.
+Objective of this Notebook is to check whether the CNN model can be applied on multivariate tabular dataset or not. If yes then improve the performance of the model by setting proper values for hyperparameters and network architecture. For this purpose, I have taken s&p500 data to predict whether Consumer Price Index will increase or decrease based on the other economic indicators such as SP500, Dividend, Earnings, Long Interest Rate, Real Price, Real Dividend, Real Earnings.
 
 Multivariate CNN Models: Although traditionally developed for two-dimensional image data, CNNs can be used to model Multivariate time series forecasting problems.
 
