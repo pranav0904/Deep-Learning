@@ -14,8 +14,23 @@ B.CNN Model
 
 Data Source:  https://datahub.io/core/s-and-p-500
 
+
 Dependencies:
-- Pandas
-- numpy
-- matplotlib
-- keras
+- pandas==0.25.3
+- numpy==1.17.4
+- matplotlib==3.1.2
+- keras==2.2.5
+
+
+
+## Conclusion:
+After performing analysis on the CNN model, it is observed that,
+```
+- For the baseline model, Loss is Higher and Accuracy on validation data is 63%.
+- The cost function logcosh is appropriate for this model than hinge.
+- Higher the number of epochs, better the model is.
+- Change in Optimizer can increase the accuracy and it helps to reduce the loss. Adagrad is better suit for this type of model than RMSprop
+- Network architecture is as important as hyperparameters. By adding more layers and with proper use of hyperparamters, we can achieve higher accuracy.
+- After changing the kernel initialization, accuracy on validation set got increase.
+- For Multivariate Tabular data, Convolution Neural Network can produce good results but handling of data For the CNN model is difficult.
+```
